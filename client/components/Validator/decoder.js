@@ -12,13 +12,14 @@ export const validateInputDecoder = (data) => {
 
     if (isUndefined(data.vin)){
         errors.vin = 'Fill in the vin number field';
-    }else {
-        let VIN = CheckVIN(data.vin);
-        if(!VIN.status){
-            debugger
-            errors.vin = VIN.text;
-        }
     }
+    // else {
+    //     let VIN = CheckVIN(data.vin);
+    //     if(!VIN.status){
+    //         debugger
+    //         errors.vin = VIN.text;
+    //     }
+    // }
 
     return {
         errors,

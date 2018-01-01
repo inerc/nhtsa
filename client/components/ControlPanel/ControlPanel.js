@@ -12,6 +12,7 @@ class ControlPanel extends React.Component {
         };
 
         this.handleChange = this.handleChange.bind(this);
+        this.handlerSubmit = this.handlerSubmit.bind(this);
     }
 
     handleChange(event){
@@ -24,7 +25,13 @@ class ControlPanel extends React.Component {
 
         let validation = validateInputDecoder(this.state);
 
-        debugger;
+        if (validation.isValid){
+
+        }else {
+           this.setState({
+               errors: validation.errors
+           })
+        }
     }
 
 
