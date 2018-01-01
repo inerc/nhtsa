@@ -1,0 +1,62 @@
+{
+  "name": "decoder",
+  "version": "0.0.1",
+  "description": "vin decoder nhtsa",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon --watch server --exec babel-node -- server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/inerc/nhtsa.git"
+  },
+  "keywords": [
+    "vin",
+    "decoder",
+    "nhtsa"
+  ],
+  "author": "inerc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inerc/nhtsa/issues"
+  },
+  "homepage": "https://github.com/inerc/nhtsa#readme",
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-runtime": "^6.11.6",
+    "babel-watch": "^2.0.4",
+    "body-parser": "^1.18.2",
+    "css": "^2.2.1",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "lodash": "^4.16.2",
+    "path": "^0.12.7",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^3.0.0",
+    "react-router-redux": "^4.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.11.1",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.83.0",
+    "style": "0.0.3",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-dev-server": "^2.5.0",
+    "webpack-hot-middleware": "^2.20.0",
+    "validator": "^5.7.0"
+  }
+}
