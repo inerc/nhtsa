@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from '../components/Header/Header';
 import ControlPanel from '../components/ControlPanel/ControlPanel';
+import Table from '../components/Table/Table';
 
 class Decoder extends Component {
     render() {
@@ -8,7 +9,7 @@ class Decoder extends Component {
             <div>
                 <Header/>
                 <ControlPanel/>
-                {/*<Table/>*/}
+                <Table/>
             </div>
         );
     }

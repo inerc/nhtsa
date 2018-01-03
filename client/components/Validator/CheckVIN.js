@@ -27,12 +27,10 @@ export const CheckVIN = (vin) => {
     let weights = [8, 7, 6, 5, 4, 3, 2, 10, 0, 9, 8, 7, 6, 5, 4, 3, 2];
 
     let string = vin;
-debugger
     string = string.replace("-", "");
     string = string.replace(" ", "");
     string = string.toUpperCase();
 
-    debugger
     if (string.length != 17) {
         return {text: 'The length of the text does not match', status: false}
     }

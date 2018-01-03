@@ -3,6 +3,6 @@ import getDecodeVin from './decoder/getDecodeVin'
 
 export function* rootSaga() {
     yield [
-          //fork(getDecodeVin)
+            fork(getDecodeVin)
         ]
 }
