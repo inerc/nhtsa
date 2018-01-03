@@ -13,7 +13,7 @@ class Header extends React.Component {
             <header className="navbar">
                 <div className="navbar_logo">
                     <a href="https://www.nhtsa.gov" target="_blank">
-                        <img alt="National Highway Traffic Safety Administration" src="https://www.nhtsa.gov/sites/nhtsa.dot.gov/themes/nhtsa_gov/images/logo-NHTSA-white.svg"/>
+                        <img alt="National Highway Traffic Safety Administration" src="/static/image/logo-NHTSA-white.svg"/>
                     </a>
                 </div>
             </header>

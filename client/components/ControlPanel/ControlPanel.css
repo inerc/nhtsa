@@ -1,5 +1,5 @@
 .control{
-  background-image: url(https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/recalls-vin-bg.jpg);
+  background-image: url('/static/image/recalls-vin-bg.jpg');
   color: white;
 }
 * {

@@ -6,9 +6,9 @@ import {setNetworkStatus} from '../actions/setNetworkStatus';
 class App extends React.Component {
 
     componentDidMount(){
-        setInterval(()=>{
-            this.props.setNetworkStatus(navigator.onLine);
-        }, 500)
+        // setInterval(()=>{
+        //     this.props.setNetworkStatus(navigator.onLine);
+        // }, 500)
     }
 
     render() {
